@@ -51,6 +51,7 @@ const sidebars = {
       items: ["Conventions/ConventionalCommits/Extensions/open-commit"],
     },
   ],
+  tips: ["Tips/CustomSnippets/index"]
 
   // But you can create a sidebar manually
   /*

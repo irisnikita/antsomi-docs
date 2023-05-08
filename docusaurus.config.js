@@ -81,6 +81,7 @@ const config = {
           //   to: "docs/Authentication/over-view",
           // },
           { to: "blog", label: "Blog", position: "right" },
+          { to: "docs/tips/custom-snippets", label: "Tips", position: "right" },
           {
             label: "Workflow",
             position: "left",
