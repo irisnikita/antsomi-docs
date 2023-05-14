@@ -82,6 +82,7 @@ const config = {
           // },
           { to: "blog", label: "Blog", position: "right" },
           { to: "docs/tips/custom-snippets", label: "Tips", position: "right" },
+          { to: "docs/conventions/team-rules", label: "Team Rules (Beta)", position: "right" },
           {
             label: "Workflow",
             position: "left",
@@ -99,6 +100,10 @@ const config = {
               {
                 label: "Conventional Commits",
                 to: "docs/conventions/conventional-commits/over-view",
+              },
+              {
+                label: "Git Branching Naming Convention",
+                to: "docs/conventions/git-branch-naming-convention/over-view",
               },
             ],
           },

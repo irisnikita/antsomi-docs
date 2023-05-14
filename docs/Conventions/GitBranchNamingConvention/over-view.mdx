@@ -1,0 +1,59 @@
+---
+title: Overview
+description: Overview
+slug: /conventions/git-branch-naming-convention/over-view
+last_update:
+  date: 05/16/2023
+  author: Truong Vi
+---
+
+**A git branch naming convention** is a set of guidelines for naming branches in a git repository. A consistent naming convention can help make it easier to manage and organize your codebase.
+
+For antsomi projects we separated branches into 2 categories:
+
+**Code Flow Branches** <br />
+These branches which we expect to be permanently available on the repository follow the flow of code changes starting from development until the production.
+
+- **Sandbox (sandbox)** <br />
+  All new features and bug fixes should be brought to the sandbox branch. Resolving developer codes conflicts should be done as early as here. Then QC will test in this environment.
+
+- **Staging (staging , Optional)** <br />
+  It contains tested features that the stakeholders wanted to be available either for a portal demo or a proposal before elevating into the production. Decisions are made here if a feature should be finally brought to the production code.
+
+- **Production (production)** <br />
+  This is the production branch, it will contain all features will be release in sprint.
+
+**Temporary Branches** <br />
+  As the name implies, these are disposable branches that can be created and deleted by need of the developer, mentor or leader.
+  
+- **Feature** <br />
+  Any code changes for a new module or use case should be done on a feature branch. This branch is created based on the production or staging branch. When all changes are Done, a Pull Request/Merge Request is needed to put all of these to the sandbox branch.
+
+  Feature Naming rule: sprint**{{current_sprint_number}}**/**{{author_name}}**/feature/**{{feature_name}}**
+
+  <div>Examples:</div>
+
+  - sprint36/vinlt/feature/improve-coupon-wheel
+  - sprint35/thanghn/feature/bar-chart-range
+
+  It is just allowed to use all lower caps letters and hyphen (-) to separate words.
+
+- **Fix Bug** <br />
+  If the code changes made from the feature branch were rejected after a release, sprint or demo, any necessary fixes after that should be done on the fixbug branch.
+
+  Fix Bug Naming rule: sprint**{{current_sprint_number}}**/**{{author_name}}**/fixbug/**{{feature_name}}**
+
+  <div>Examples:</div>
+  
+  - sprint33/vinlt/fixbug/fix-loading-text
+  - sprint32/khanglnh/fixbug/media-template-bug
+
+- **Hot Fix** <br />
+  If there is a need to fix a blocker, do a temporary patch, apply a critical framework or configuration change that should be handled immediately, it should be created as a Hotfix. It does not follow the scheduled integration of code and could be merged directly to the production branch, then on the sandbox branch later.
+
+  <div>Examples:</div>
+
+  - sprint33/vinlt/hotfix/fix-crash-page
+  - sprint33/datlt/hotfix/fix-validate-arrays
+
+
