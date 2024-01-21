@@ -17,7 +17,7 @@
     "imageUrl": "https://lh3.googleusercontent.com/a-/ACB-R5SDO8QMKslrd7IUCRqeNpFxWrZcVRm-H1hzEcSF=s800",
     "role": "senior"
   },
-  { 
+  {
     "key": "3",
     "name": "Lê Thành Đạt",
     "nickName": "datlt",
@@ -73,11 +73,74 @@
   },
   {
     "key": "9",
-    "name": "Nguyễn Duy Khánh",
-    "nickName": "khanhnd",
-    "mail": "khanhnd@antsomi.com",
-    "googleUrl": "https://contacts.google.com/khanhnd@antsomi.com",
-    "imageUrl": "https://lh3.googleusercontent.com/a-/ACB-R5TVkYEMTxM4FrEm86w7g1TJUtFFL8Gfk9q-B80r=s800",
+    "name": "Trần Xuân Huy",
+    "nickName": "huytx",
+    "mail": "huytx@antsomi.com",
+    "googleUrl": "https://contacts.google.com/huytx@antsomi.com",
+    "imageUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV0WGjLcimFR0fV80W_Ynsp-P3igaWld7cD3c9MXDIdMA=s800",
+    "role": "executive"
+  },
+  {
+    "key": "10",
+    "name": "Trần Phạm Thanh Hoàng",
+    "nickName": "hoangtpt",
+    "mail": "hoangtpt@antsomi.com",
+    "googleUrl": "https://contacts.google.com/hoangtpt@antsomi.com",
+    "imageUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXzjdEt9DANKIOywwNqdKwb1PtkBJ-zI4WJgO3Qz59riw=s88-w88-h88-c-k-no",
+    "role": "executive"
+  },
+  {
+    "key": "11",
+    "name": "Từ Chí Huy",
+    "nickName": "huytc",
+    "mail": "huytc@antsomi.com",
+    "googleUrl": "https://contacts.google.com/huytc@antsomi.com",
+    "imageUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVySJf6bXZb61l7sx4hrqlfhiq7tnbPv0oCAHj-lUKPH6o=s800",
+    "role": "executive"
+  },
+  {
+    "key": "12",
+    "name": "Bạch Tăng Thắng",
+    "nickName": "thangbt",
+    "mail": "thangbt@antsomi.com",
+    "googleUrl": "https://contacts.google.com/thangbt@antsomi.com",
+    "imageUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWrvBLwFv_qC2fVPPMQjD7tpzgk9j31AOPU7xS-bSv5rg=s800",
+    "role": "executive"
+  },
+  {
+    "key": "13",
+    "name": "Lê Phúc Minh Quân",
+    "nickName": "quanlpm",
+    "mail": "quanlpm@antsomi.com",
+    "googleUrl": "https://contacts.google.com/quanlpm@antsomi.com",
+    "imageUrl": "https://lh3.googleusercontent.com/a/ACg8ocLcczFP9rKd7KuqmHRriCa-nmg7P23BA97Jr9CGbDvI=s800",
+    "role": "executive"
+  },
+  {
+    "key": "14",
+    "name": "Đặng Văn Linh",
+    "nickName": "linhdv",
+    "mail": "linhdv@antsomi.com",
+    "googleUrl": "https://contacts.google.com/linhdv@antsomi.com",
+    "imageUrl": "https://lh3.googleusercontent.com/a/ACg8ocIT1qoEBkX98hu1kO6d8PdLTDENXNR4113N_2_6x_JL=s800",
+    "role": "executive"
+  },
+  {
+    "key": "15",
+    "name": "Đào Ngọc Thuận",
+    "nickName": "thuandn",
+    "mail": "thuandn@antsomi.com",
+    "googleUrl": "https://contacts.google.com/thuandn@antsomi.com",
+    "imageUrl": "https://lh3.googleusercontent.com/a-/ALV-UjX2niw7bno0uKZD5bJRCIkEtaU3Ebpe9miLERPnHnpc6g=s800",
+    "role": "executive"
+  },
+  {
+    "key": "16",
+    "name": "Võ Thành Tính",
+    "nickName": "tinhvt",
+    "mail": "tinhvt@antsomi.com",
+    "googleUrl": "https://contacts.google.com/tinhvt@antsomi.com",
+    "imageUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUIirjmldszWCgJ8yERO3zhSEHyfNQTjpUihWuUKnzsBQ=s800",
     "role": "executive"
   }
 ]

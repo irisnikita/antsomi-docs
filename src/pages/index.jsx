@@ -39,7 +39,7 @@ function HomepageHeader() {
     <div className="grid lg:grid-cols-2 grid-cols-1 gap-10">
       <div className="flex flex-col lg:items-start items-center justify-center lg:text-left text-center lg:order-none order-last">
         <h1 className="animate__animated animate__fadeIn animate__delay-1s mb-8">
-          Antsomi FullStack Team <br /> Documentation
+          Antsomi Application Team <br /> Documentation
         </h1>
         <p className="animate__animated animate__fadeIn animate__delay-2s max-w-md mb-12">
           This document provides the team with working rules, coding style

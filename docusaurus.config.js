@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Antsomi FullStack Team Documentation",
+  title: "Antsomi Application Team Documentation",
   tagline:
     "Provides detailed information on how to effectively use the Antsomi platform.",
   url: "https://irisnikita.github.io",
@@ -71,7 +71,7 @@ const config = {
         // title: "API Docs",
         logo: {
           alt: "Antsomi Logo",
-          src: "https://st-media-template.antsomi.com/upload/2023/03/17/17e65c4f-91d7-4351-a752-3003ee4fa9f5.png",
+          src: "https://st-media-template.antsomi.com/upload/2024/01/19/21b86dbb-4f98-4f88-89bd-edae0880e5a2.png",
         },
         hideOnScroll: false,
         items: [
@@ -82,7 +82,11 @@ const config = {
           // },
           { to: "blog", label: "Blog", position: "right" },
           { to: "docs/tips/custom-snippets", label: "Tips", position: "right" },
-          { to: "docs/conventions/team-rules", label: "Team Rules (Beta)", position: "right" },
+          {
+            to: "docs/conventions/team-rules",
+            label: "Team Rules (Beta)",
+            position: "right",
+          },
           {
             label: "Workflow",
             position: "left",
