@@ -18,43 +18,51 @@ const sidebars = {
 
   docs: [
     {
-      type: "category",
-      label: "Authentication",
-      items: ["Authentication/over-view"],
+      type: 'category',
+      label: 'Authentication',
+      items: ['Authentication/over-view'],
     },
   ],
   codingStyleGuide: [
-    "CodingStyleGuide/over-view",
-    "CodingStyleGuide/common",
-    "CodingStyleGuide/JavaScript/index",
+    'CodingStyleGuide/over-view',
+    'CodingStyleGuide/common',
+    'CodingStyleGuide/JavaScript/index',
     {
-      type: "category",
-      label: "FrontEnd",
-      items: ["CodingStyleGuide/FrontEnd/ReactJs/index"],
+      type: 'category',
+      label: 'FrontEnd',
+      items: ['CodingStyleGuide/FrontEnd/ReactJs/index'],
     },
   ],
   packages: [
-    "Packages/EslintConfigAntsomi/introduction",
+    'Packages/EslintConfigAntsomi/introduction',
     {
-      type: "category",
-      label: "Getting Started",
-      items: ["Packages/EslintConfigAntsomi/GettingStarted/installation"],
+      type: 'category',
+      label: 'Getting Started',
+      items: ['Packages/EslintConfigAntsomi/GettingStarted/installation'],
     },
   ],
-  workflow: ["Workflow/OverView/index"],
-  conventionalCommits: [
-    "Conventions/ConventionalCommits/over-view",
-    "Conventions/ConventionalCommits/rules",
+  antsomiLocales: [
+    'Packages/AntsomiLocales/introduction',
     {
-      type: "category",
-      label: "Extensions",
-      items: ["Conventions/ConventionalCommits/Extensions/open-commit"],
+      type: 'category',
+      label: 'Getting Started',
+      items: ['Packages/AntsomiLocales/GettingStarted/installation'],
+    },
+  ],
+  workflow: ['Workflow/OverView/index'],
+  conventionalCommits: [
+    'Conventions/ConventionalCommits/over-view',
+    'Conventions/ConventionalCommits/rules',
+    {
+      type: 'category',
+      label: 'Extensions',
+      items: ['Conventions/ConventionalCommits/Extensions/open-commit'],
     },
   ],
   gitBranchingNamingConvention: [
-    "Conventions/GitBranchNamingConvention/over-view",
+    'Conventions/GitBranchNamingConvention/over-view',
   ],
-  tips: ["Tips/CustomSnippets/index"]
+  tips: ['Tips/CustomSnippets/index'],
 
   // But you can create a sidebar manually
   /*
@@ -68,6 +76,6 @@ const sidebars = {
     },
   ],
    */
-};
+}
 
-module.exports = sidebars;
+module.exports = sidebars
