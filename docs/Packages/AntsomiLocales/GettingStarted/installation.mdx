@@ -1,0 +1,32 @@
+---
+title: Installation
+description: Installation of antsomi-locales
+slug: /packages/antsomi-locales/installation
+last_update:
+  date: 09/24/2023
+  author: Minh Quan Le
+---
+
+## Install dependencies (and peer dependencies)
+
+### Use npm
+
+```bash
+npm i @antscorp/antsomi-locales
+```
+
+### Use yarn
+
+```bash
+yarn add @antscorp/antsomi-locales
+```
+
+### Usage
+
+```typescript
+import { translate, translations } from '@antscorp/antsomi-locales'
+
+translate(translations._ACT_ACTION, 'Action')
+```
+
+Language will be auto detect by find the key `i18nextLng` in localStorage (back by `i18next-browser-languagedetector`)
