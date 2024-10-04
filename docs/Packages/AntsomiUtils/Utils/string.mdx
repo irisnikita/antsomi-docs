@@ -1,0 +1,33 @@
+---
+title: String
+description: Utils function for string manipulate
+slug: /packages/antsomi-utils/string
+last_update:
+  date: 10/04/2024
+  author: Minh Quan Le
+---
+
+Utils function for **string** manipulate
+
+## simplifyString
+
+Remove all accents and convert string to lower case, remove leading and trailing white space
+
+```typescript
+simplifyString(value: string)
+```
+
+### Arguments
+
+value (`string`): the string that want to simplify
+
+### Return
+
+`string`: string after simplify
+
+### Example
+
+```typescript
+simplifyString('Lê Phúc Minh Quân')
+// => 'le phuc minh quan'
+```

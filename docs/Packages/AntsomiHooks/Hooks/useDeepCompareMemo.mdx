@@ -1,0 +1,71 @@
+---
+title: useDeepCompareMemo
+description: useDeepCompareMemo
+slug: /packages/antsomi-hooks/hooks/use-deep-compare-memo
+last_update:
+  date: 10/04/2024
+  author: Minh Quan Le
+---
+
+**useDeepCompareMemo** is a custom hook based on **useMemo** but allows non-primitive dependencies.
+
+## Usage
+
+```tsx
+import { useDeepCompareMemo } from '@antscorp/antsomi-hooks'
+
+type Data = Array<{ id: string; name: string }>
+function ExampleComponent({ data: Data }) {
+  const memoizedData = useDeepCompareMemo(
+    () => data.map((item) => ({ ...item, label: item.name })),
+    [data]
+  )
+
+  return (
+    <div>
+      {memoizedData.map((item) => (
+        <div key={item.id}>{item.label}</div>
+      ))}
+    </div>
+  )
+}
+```
+
+## API
+
+> **useDeepCompareMemo**(`calculateValue`, `dependencies`): `void`
+
+### Parameters
+
+| Name           | Type        | Description                                                                     |
+| -------------- | ----------- | ------------------------------------------------------------------------------- |
+| calculateValue | () => `any` | The function calculating the value that you want to cache.                      |
+| dependencies   | `any`       | The list of all reactive values referenced inside of the `calculateValue` code. |
+
+### Returns
+
+`void`
+
+## Hook
+
+```ts
+import { useMemo, useRef } from 'react'
+import isEqual from 'react-fast-compare'
+
+function useDeepCompareMemoize(value: any) {
+  const ref = useRef()
+
+  if (!isEqual(value, ref.current)) {
+    ref.current = value
+  }
+
+  return ref.current
+}
+
+export function useDeepCompareMemo<T>(
+  callback: () => T,
+  dependencies: React.DependencyList | undefined
+) {
+  return useMemo<T>(callback, dependencies?.map(useDeepCompareMemoize) as any)
+}
+```

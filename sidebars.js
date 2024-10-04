@@ -49,6 +49,42 @@ const sidebars = {
       items: ['Packages/AntsomiLocales/GettingStarted/installation'],
     },
   ],
+  antsomiHooks: [
+    {
+      type: 'category',
+      label: 'Getting Started',
+      items: [
+        'Packages/AntsomiHooks/GettingStarted/introduction',
+        'Packages/AntsomiHooks/GettingStarted/hookTemplate',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Hooks',
+      items: [
+        'Packages/AntsomiHooks/Hooks/useDeepCompareEffect',
+        'Packages/AntsomiHooks/Hooks/useDeepCompareMemo',
+      ],
+    },
+  ],
+  antsomiUtils: [
+    {
+      type: 'category',
+      label: 'Getting Started',
+      items: [
+        'Packages/AntsomiUtils/GettingStarted/introduction',
+        'Packages/AntsomiUtils/GettingStarted/utilTemplate',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Utils',
+      items: [
+        'Packages/AntsomiUtils/Utils/array',
+        'Packages/AntsomiUtils/Utils/string',
+      ],
+    },
+  ],
   workflow: ['Workflow/OverView/index'],
   conventionalCommits: [
     'Conventions/ConventionalCommits/over-view',
