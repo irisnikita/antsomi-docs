@@ -1,0 +1,48 @@
+---
+title: Array
+description: Utils function for array manipulate
+slug: /packages/antsomi-utils/array
+last_update:
+  date: 10/04/2024
+  author: Minh Quan Le
+---
+
+Utils function for **array** manipulate
+
+## reorder
+
+Reorder list items
+
+```typescript
+reorder(array, startIndex, endIndex)
+```
+
+### Arguments
+
+array (`T[]`): list of item want to reorder
+
+startIndex (`number`): start item index want to replace position
+
+endIndex (`number`): end item index want to replace position
+
+### Return
+
+`T[]`: array after reorder
+
+### Example
+
+```typescript
+const data = [
+  { label: 'item 1' },
+  { label: 'item 2' },
+  { label: 'item 3' },
+  { label: 'item 4' },
+]
+reorder(data, 1, 3)
+// => [
+//   { label: 'item 1' },
+//   { label: 'item 4' }, // replace with item 2
+//   { label: 'item 3' },
+//   { label: 'item 2' }, // replace with item 4
+// ]
+```

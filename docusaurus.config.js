@@ -123,6 +123,14 @@ const config = {
                 label: '@antscorp/antsomi-locales',
                 to: 'docs/packages/antsomi-locales/introduction',
               },
+              {
+                label: '@antscorp/antsomi-hooks',
+                to: 'docs/packages/antsomi-hooks/introduction',
+              },
+              {
+                label: '@antscorp/antsomi-utils',
+                to: 'docs/packages/antsomi-utils/introduction',
+              },
             ],
           },
           {
